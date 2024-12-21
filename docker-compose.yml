@@ -1,0 +1,11 @@
+services:
+  app:
+    build:
+      context: .
+    command: gradio main.py
+    volumes:
+    - .:/app
+    ports:
+    - "7860:7860"
+    env_file:
+    - .env
