@@ -49,14 +49,3 @@ prompt = PromptTemplate.from_template(
 解答:
 """
 )
-
-if __name__ == "__main__":
-    input = "先生とは？"
-
-    embedding_model = OpenAIEmbeddings(model="text-embedding-3-small")
-    chat_model = ChatOpenAI(model="gpt-4o-mini")
-
-    vector_store = get_or_init_vector_store(embedding_model)
-    context = retrieve_context(vector_store, input)
-    answer = generate_answer(input, context)
-    print(answer)
