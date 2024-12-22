@@ -1,6 +1,6 @@
 # 入力データの作成方法
 
-[青空文庫収録ファイルの取り扱い基準](https://www.aozora.gr.jp/guide/kijyunn.html) で推奨される通り、入力データの作り方をまとめておく。
+[青空文庫収録ファイルの取り扱い基準](https://www.aozora.gr.jp/guide/kijyunn.html) で推奨される通り、ドキュメントデータの作り方をまとめておく。
 
 ## ダウンロードと解凍
 
